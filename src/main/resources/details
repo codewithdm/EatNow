@@ -1,5 +1,0 @@
-localhost:8099/eatnow/h2-console
-localhost:8099/eatnow/v2/api-docs
-localhost:8099/eatnow/actuator
-context-path:eatnow
-tomcat port:8099
