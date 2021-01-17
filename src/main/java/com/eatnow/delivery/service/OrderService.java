@@ -19,4 +19,7 @@ public class OrderService {
 	public List<OrderEntity> getAllOrderDetails(){
 		return orderRepository.findAll();
 	}
+	public OrderEntity getOrderDetailsById(Long orderId) {
+		return (OrderEntity)orderRepository.findByOrderId(orderId);
+	}
 }
